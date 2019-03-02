@@ -20,7 +20,7 @@ const Movie = ( {title, poster} ) => {
 
 function MoviePoster ( {poster} ){
     return(
-        <img src={poster} alt='Movie Poster' />
+        <img src={poster} alt='Movie Poster Image' />
     )
 }
 
